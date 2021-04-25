@@ -1,0 +1,20 @@
+Source: golang-ishell
+Section: contrib/net
+Priority: optional
+Maintainer: Erik Ziegenbalg <erikziege@gmail.com>
+Build-Depends: debhelper,
+ dh-golang,
+ golang,
+ golang-github-fatih-color-dev,
+ golang-github-anmitsu-go-shlex-dev,
+ golang-github-chzyer-readline-dev,
+ golang-github-stretchr-testify-dev,
+ autoconf,
+ automake
+Standards-Version: 3.9.8
+
+Package: golang-ishell
+Architecture: all
+Depends: golang
+Pre-Depends: bash-completion
+Description: Goldengoose dbft

@@ -3,7 +3,7 @@
 package ishell
 
 import (
-	"github.com/abiosoft/readline"
+	"github.com/chzyer/readline"
 )
 
 func clearScreen(s *Shell) error {
